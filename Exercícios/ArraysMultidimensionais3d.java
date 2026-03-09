@@ -10,7 +10,7 @@ public class ArraysMultidimensionais3d {
             for(int j=0; j<cinema[i].length;j++){
                 for (int k=0; k< cinema[i][j].length;k++){
                     cinema[i][j][k] =1;
-                    System.out.println("\n------");
+                    System.out.println("\n-------");
                     System.out.println(cinema[i][j][k]);
                 }
             }
