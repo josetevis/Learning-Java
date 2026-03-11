@@ -363,9 +363,9 @@ public class ExercícioEstacionamento {
 
                     }
 
-                      if(posicao < 0 || posicao > 30){
-                          System.out.println("Vaga inexistente");
-                      }
+                    if(posicao < 0 || posicao > 30){
+                        System.out.println("Vaga inexistente");
+                    }
                     if(vagas[linhas][colunas] == "L"){
                         System.out.println("Essa vaga já se encontra livre");
                     }
@@ -377,7 +377,7 @@ public class ExercícioEstacionamento {
                 break;
                 case 4:{
 
-                             vagasLivres = 30 - vagasselect;
+                    vagasLivres = 30 - vagasselect;
 
                     System.out.println(vagasLivres + " Vagas livres");
                 }
@@ -391,4 +391,3 @@ public class ExercícioEstacionamento {
         }
     }
 }
-
