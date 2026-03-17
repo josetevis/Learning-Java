@@ -3,8 +3,8 @@ import java.util.Scanner;
 
 
 public class DecimalRomano {
-   static int[] numeros = {1000,900,500,400,100,90,50,40,10,5,1};
-   static String[] letras = {"M","CM","D","CD","C","XC","L","XL","X","V","I"};
+   static int[] numeros = {1000,900,500,400,100,90,50,40,10,9,5,4,1};
+   static String[] letras = {"M","CM","D","CD","C","XC","L","XL","X","IX","V","IV","I"};
     public static String decrementador(int num){
         String retorno = "";
         for(int i=0;i<numeros.length;i++){
